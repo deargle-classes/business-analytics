@@ -12,10 +12,10 @@ A transaction comes in, and you use the model to classify it. It has the followi
 
 What will be the `p_fraud` and `p_not_fraud` for this instance?
 
-* [] p-fraud= .12, p-not-fraud=.31
-* [] p-fraud= .75, p-not-fraud=.25
-* [] p-fraud= .2791, p-not-fraud=.7209
-* [] p-fraud= .3871, p-not-fraud=.6129
+* [ ] p-fraud= .12, p-not-fraud=.31
+* [ ] p-fraud= .75, p-not-fraud=.25
+* [ ] p-fraud= .2791, p-not-fraud=.7209
+* [ ] p-fraud= .3871, p-not-fraud=.6129
 
 
 
