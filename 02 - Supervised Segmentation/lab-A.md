@@ -1,4 +1,25 @@
-# Information Gain
+# Question: Tree Classifier
+
+You are a credit card company. You have induced the following decision tree classifier.
+
+![ccfraud](../images/credit-card-fraud.png)
+
+A transaction comes in, and you use the model to classify it. It has the following z-score values:
+
+    freq of purchases in this zip code: 1.2
+    amount: 3.1
+    time since last transaction: 4
+
+What will be the `p_fraud` and `p_not_fraud` for this instance?
+
+* [] p-fraud= .12, p-not-fraud=.31
+* [] p-fraud= .75, p-not-fraud=.25
+* [] p-fraud= .2791, p-not-fraud=.7209
+* [] p-fraud= .3871, p-not-fraud=.6129
+
+
+
+# Question: Information Gain
 
 For this question, you will use a Game of Thrones dataset. One row represents one person. 
 *The prediction target is whether or not the person is dead.* The things we know about each 
@@ -12,7 +33,7 @@ Your task is to calculate the information gain for the following three features:
 3. "gender”
 
 
-# Background on information theory and entropy
+## Background on information theory and entropy
 
 [Shannon’s Information Theory](https://en.wikipedia.org/wiki/Entropy_(information_theory)) is a way to express entropy for a given dataset. 
 The function represents “information” for observing a certain outcome as follows:
