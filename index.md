@@ -5,6 +5,14 @@
 layout: default
 ---
 
+# Topics
+
 {%- for topic in site.topics %}
    * [ {{ topic.title }} ]( {{ topic.url }} )
+{% endfor -%}
+
+# Labs
+
+{%- for lab in site.labs %}
+   * [ {{ lab.title }} ]( {{ lab.url }})
 {% endfor -%}
