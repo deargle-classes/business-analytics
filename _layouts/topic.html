@@ -4,8 +4,8 @@ layout: default
 
 <h1>Topic: {{ page.title }}</h1>
 
-<h2>Slides</h2>
 {% if page.slides %}
+<h2>Slides</h2>
 <a href="{{ page.slides | prepend: '/slides/' | relative_url }}">{{ page.slides }}</a>
 {% endif %}
 
