@@ -72,7 +72,7 @@ title: 07 - Midterm 1
       * Positive Predictive Value (i.e., precision)
    * Do not need to memorize the various synonyms for the above three metrics
    * Be able to interpret probability-notation-representation of the above metrics:
-      * p(Y|p) == True Positive Rate
-      * p(Y|n) == False Positive Rate
-      * p(p|Y) == Positive Predictive Value
+      * `p(Y|p) == True Positive Rate`
+      * `p(Y|n) == False Positive Rate`
+      * `p(p|Y) == Positive Predictive Value`
 * Understand the two basic uses of the Expected Value Framework, and for how a cost-benefit matrix is obtained

@@ -11,7 +11,7 @@ title: 12 - Midterm 2
 * Do not need to understand principles in the book that we have not discussed in class...
    * But the book will be monumentally helpful towards your conceptual understanding of what we have discussed.
 
-##Supplemental Book Chapters
+## Supplemental Book Chapters
 * 9,6,12,10
 
 ## Overarching Concepts from first half of class
@@ -24,15 +24,15 @@ title: 12 - Midterm 2
 
 ## General concepts
 * Classification vs continuous prediction models; the different classification algorithms we have covered so far
-* Understand how to interpret probability syntax when expressed as e.g. p(A|B)
+* Understand how to interpret probability syntax when expressed as e.g. `p(A|B)`
    * You should be able to interpret this in the context of a confusion matrix too, although I already tested you on that
 
 ## Lecture: Prediction via Evidence Combination
 * Calculation of combined probabilities under assumptions of independence and dependence
-* Understanding what is meant by p(Y|X) where Y is some class, and X is a feature vector -- that predicting such is the ultimate goal of classification algorithms
-* Understand why p(X|Y) * p(Y) is easier to calculate than is p(Y|X) * p(X)
-   * p(Y|x) = p(measles | red spots)
-   * p(x|Y) = p(red spots | measles)
+* Understanding what is meant by `p(Y|X)` where `Y` is some class, and `X` is a feature vector -- that predicting such is the ultimate goal of classification algorithms
+* Understand why `p(X|Y) * p(Y)` is easier to calculate than is `p(Y|X) * p(X)`
+   * `p(Y|x) = p(measles | red spots)`
+   * `p(x|Y) = p(red spots | measles)`
 * Understand conceptually why naive bayes is “naive”
 * Understand advantages and disadvantages of naive bayes
 * Evidence lift, including how to calculate, how to interpret, and why it is doubly naive.
@@ -71,6 +71,17 @@ title: 12 - Midterm 2
    * Bag of words, inverse document frequency (IDF) and TFIDF
 * Understand how a search engine might use text mining feature-vector representation to rank search results
 * Cosine-distance, but not memorize the formula -- just how it is used for text, and how it uses feature-vector
-   * I learned how this worked today, it’s a cool hack. Answers the age-old question of all high-school students of “why do I need to learn trigonometry if I am not going to be a civil engineer or a bird watcher?” Well, look at this: https://www.mathsisfun.com/algebra/vectors-dot-product.html This describes the “dot product” of two vectors. They say that it is equivalent to multiplying the length of two vectors by the cosine of the angle between them. Recall that cosine values range between -1 and 1. We like that property of cosine because we are looking for a “similarity” score between two text documents. So if you do a cool hack, you can divide the dot product of two vectors by the product of their lengths, and you get... the cosine of the angle between them :shrug:. That is a cosine similarity, so to switch it to a cosine distance, subtract it from 1. Voila, did you know that, now you know. It’s cool for things like text mining when using TF-IDF or other values that are non-integer so you can’t do a simple jaccard distance or simple matching coefficient. Sure, you could still do a euclidean or manhattan distance between two text feature-vectors, but for some reason still unknown to me, cosine distance is preferred for text comparison over those other two approaches.
+   * I learned how this worked today, it’s a cool hack. Answers the age-old question of all high-school students of 
+     “why do I need to learn trigonometry if I am not going to be a civil engineer or a bird watcher?” Well, look at this: 
+     https://www.mathsisfun.com/algebra/vectors-dot-product.html This describes the “dot product” of two vectors. 
+     They say that it is equivalent to multiplying the length of two vectors by the cosine of the angle between them. 
+     Recall that cosine values range between -1 and 1. We like that property of cosine because we are looking for a 
+     “similarity” score between two text documents. So if you do a cool hack, you can divide the dot product of two 
+     vectors by the product of their lengths, and you get... the cosine of the angle between them :shrug:. 
+     That is a cosine similarity, so to switch it to a cosine distance, subtract it from 1. Voila, did you know that, 
+     now you know. It’s cool for things like text mining when using TF-IDF or other values that are non-integer so you can’t do a 
+     simple jaccard distance or simple matching coefficient. Sure, you could still do a euclidean or manhattan distance between 
+     two text feature-vectors, but for some reason still unknown to me, cosine distance is preferred for 
+     text comparison over those other two approaches.
 
-   So go back and tell your high-school self to shut up and learn trig “you’ll thank me one day.”
+     So go back and tell your high-school self to shut up and learn trig “you’ll thank me one day.”
