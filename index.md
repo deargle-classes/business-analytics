@@ -8,17 +8,17 @@ layout: default
 # Topics
 
 {%- for topic in site.topics %}
-   * [ {{ topic.title }} ]( {{ topic.url }} )
+   * [ {{ topic.title }} ]( {{ topic.url | relative_url }} )
 {% endfor -%}
 
 
 # Labs
 
 {%- for lab in site.labs %}
-   * [ {{ lab.title }} ]( {{ lab.url }})
+   * [ {{ lab.title }} ]( {{ lab.url | relative_url }})
 {% endfor -%}
 
 
 # External Links
 
-[Python Labs for the chapters from Provost & Fawcett](https://github.com/ferlocar/spring_2019_data_mining)
+* [Python Labs for the chapters from Provost & Fawcett](https://github.com/ferlocar/spring_2019_data_mining)
