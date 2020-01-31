@@ -1,8 +1,8 @@
 ---
-title: lab-supervised-segmentation
+title: "Lab: Supervised segmentation"
 ---
 
-# Question: Tree Classifier
+## Question: Tree Classifier
 
 You are a credit card company. You have induced the following decision tree classifier.
 
@@ -23,7 +23,7 @@ What will be the `p_fraud` and `p_not_fraud` for this instance?
 
 
 
-# Question: Information Gain
+## Question: Information Gain
 
 For this question, you will use a Game of Thrones dataset. One row represents one person. 
 *The prediction target is whether or not the person is dead.* The things we know about each 
@@ -37,7 +37,7 @@ Your task is to calculate the information gain for the following three features:
 3. "gender”
 
 
-## Background on information theory and entropy
+### Background on information theory and entropy
 
 [Shannon’s Information Theory](https://en.wikipedia.org/wiki/Entropy_(information_theory)) is a way to express entropy for a given dataset. 
 The function represents “information” for observing a certain outcome as follows:
@@ -79,7 +79,7 @@ Recall (from the book):
 The entropy of each child is calculated as in the entropy(parent) function above, scoped to just the datapoints for that child.
 
 
-# Questions
+## Questions
 
 1. What is the overall entropy before any segmentation?
 2. What is the feature with the highest information gain?

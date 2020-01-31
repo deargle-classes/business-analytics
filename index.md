@@ -11,8 +11,14 @@ layout: default
    * [ {{ topic.title }} ]( {{ topic.url }} )
 {% endfor -%}
 
+
 # Labs
 
 {%- for lab in site.labs %}
    * [ {{ lab.title }} ]( {{ lab.url }})
 {% endfor -%}
+
+
+# External Links
+
+[Python Labs for the chapters from Provost & Fawcett](https://github.com/ferlocar/spring_2019_data_mining)
