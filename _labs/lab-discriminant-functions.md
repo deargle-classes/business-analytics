@@ -42,45 +42,45 @@ where a colon specifies an interaction.
 
 The model output provides the following summary:
 
-```r
-Call:
-glm(formula = loan_status ~ dti * grade, family = binomial, data = mine2)
-
-
-Deviance Residuals:
-        Min           1Q   Median           3Q          Max 
--1.1609  -0.6066  -0.4712  -0.3473   2.6631 
-
-
-Coefficients:
-                  Estimate Std. Error z value Pr(>|z|)        
-(Intercept)      -3.516919   0.229746 -15.308  < 2e-16 ***
-dti               0.048308   0.012344   3.914 9.09e-05 ***
-gradeB            0.839814   0.268586   3.127  0.00177 **
-gradeC            1.501448   0.267276   5.618 1.94e-08 ***
-gradeD            2.011791   0.281292   7.152 8.55e-13 ***
-gradeE            1.866544   0.360583   5.176 2.26e-07 ***
-gradeF            2.636531   0.654769   4.027 5.66e-05 ***
-gradeG          -33.269100 723.723955  -0.046  0.96333        
-dti:gradeB       -0.015668   0.014276  -1.097  0.27243        
-dti:gradeC       -0.022040   0.014108  -1.562  0.11824        
-dti:gradeD       -0.032202   0.014747  -2.184  0.02899 * 
-dti:gradeE       -0.006724   0.018508  -0.363  0.71637        
-dti:gradeF       -0.043739   0.031532  -1.387  0.16541        
-dti:gradeG        1.837573  32.760837   0.056  0.95527        
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-(Dispersion parameter for binomial family taken to be 1)
-
-
-Null deviance: 8070.2  on 9999  degrees of freedom
-Residual deviance: 7647.0  on 9986  degrees of freedom
-AIC: 7675
-
-
-Number of Fisher Scoring iterations: 13
-```
+	
+	Call:
+	glm(formula = loan_status ~ dti * grade, family = binomial, data = mine2)
+	
+	
+	Deviance Residuals:
+	        Min		  1Q   	   Median   3Q        Max 
+			-1.1609  -0.6066  -0.4712  	-0.3473   2.6631 
+	
+	
+	Coefficients:
+	                  Estimate 	 Std. Error z value Pr(>|z|)        
+	(Intercept)      -3.516919   0.229746 	-15.308  < 2e-16 ***
+	dti               0.048308   0.012344   3.914 	9.09e-05 ***
+	gradeB            0.839814   0.268586   3.127  0.00177 **
+	gradeC            1.501448   0.267276   5.618 1.94e-08 ***
+	gradeD            2.011791   0.281292   7.152 8.55e-13 ***
+	gradeE            1.866544   0.360583   5.176 2.26e-07 ***
+	gradeF            2.636531   0.654769   4.027 5.66e-05 ***
+	gradeG          -33.269100 723.723955  -0.046  0.96333        
+	dti:gradeB       -0.015668   0.014276  -1.097  0.27243        
+	dti:gradeC       -0.022040   0.014108  -1.562  0.11824        
+	dti:gradeD       -0.032202   0.014747  -2.184  0.02899 * 
+	dti:gradeE       -0.006724   0.018508  -0.363  0.71637        
+	dti:gradeF       -0.043739   0.031532  -1.387  0.16541        
+	dti:gradeG        1.837573  32.760837   0.056  0.95527        
+	---
+	Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+	
+	(Dispersion parameter for binomial family taken to be 1)
+	
+	
+	Null deviance: 8070.2  on 9999  degrees of freedom
+	Residual deviance: 7647.0  on 9986  degrees of freedom
+	AIC: 7675
+	
+	
+	Number of Fisher Scoring iterations: 13
+	```
 
 _dti_ is
 A ratio calculated using the borrower’s total monthly debt
@@ -95,25 +95,52 @@ Charged off (default).
 _grade_ is lending-club-assigned loan grade. "A" is good, "G" is bad, etc.
 
 
-
-
 **Question 4:** Refer to the model output above. What value would this model directly predict (y) for someone with a dti of .94 and a grade of D?
-*[ ] y= 2.057
-*[ ] y= 2.027
-*[ ] y= -1.490
-*[ ] y= 2.028
+
+**A.** y= 2.057
+	
+**B.** y= 2.027
+	 
+**C.** y= -1.490  
+	 
+**D.** y= 2.028
 
 
 **Question 5:** Refer to the model output above.
 What value would this model predict for someone with a dti of .3 and a grade of A?
-*[ ] y= -3.502
-*[ ] y= 0.014
-*[ ] y= 0.048
-*[ ] y= -3.469
+
+**A.** y= -3.502
+
+**B.** y= 0.014
+
+**C.** y= 0.048
+
+**D.** y= -3.469
 
 
 **Question 6:** Assume that the model above make a direct prediction of y = .2. What would this be in terms of probability?
-*[ ] p = .200
-*[ ] p = .4
-*[ ] p = .550
-*[ ] p = .450
+
+**A.** p = .200
+
+**B.** p = .4
+
+**C.** p = .550
+
+**D.** p = .450
+
+|             | Estimate    | Std. Error | z-value | Pr (>|z|)    |
+|-------------|-------------|------------|---------|--------------|
+| (Intercept) | -3.516919   | 0.229746   | -15.308 | < 2e-16 ***  |
+| dti         | 0.048308    | 0.012344   | 3.914   | 9.09e-05 *** |
+| gradeB      | 0.839814    | 0.268586   | 3.127   | 0.00177 **   |
+| gradeC      | 1.501448    | 0.267276   | 5.618   | 1.94e-08 *** |
+| gradeD      | 2.011791    | 0.281292   | 7.152   | 8.55e-13 *** |
+| gradeE      | 1.866544    | 0.360583   | 5.176   | 2.26e-07 *** |
+| gradeF      | 2.636531    | 0.654769   | 4.027   | 5.66e-05 *** |
+| gradeG      | -33.269100  | 723.723955 | -0.046  | 0.96333      |
+| dti:gradeB  | -0.015668   | 0.014276   | -1.097  | 0.27243      |
+| dti:gradeC  | -0.022040   | 0.014108   | -1.562  | 0.11824      |
+| dti:gradeD  | -0.032202   | 0.014747   | -2.184  | 0.02899 *    |
+| dti:gradeE  | -0.006724   | 0.018508   | -0.363  | 0.71637      |
+| dti:gradeF  | -0.043739   | 0.031532   | -1.387  | 0.16541      |
+| dti:gradeG  | 1.837573    | 32.760837  | 0.056   | 0.95527      |
