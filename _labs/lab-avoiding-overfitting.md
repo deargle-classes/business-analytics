@@ -35,15 +35,16 @@ With the correct-or-not feature, you can then calculate accuracy.
 **Hint:** Consider using the summarize tool to do a multi-level group-by of the output of the union on classifier id and fold id, and then calculate accuracy for each subgroup.
 
 
-## Question 1
-
+#### Question 1:
+----------
 Submit two screenshots:
 
 1. One showing the output of your first summary tool, with a total of fifteen rows -- one for the evaluation of each x-val run in each model.
 2. One showing the output of your final output somewhere after the second summary tool -- with a total of three rows -- one row per classifier, showing classifier name, average accuracy, and accuracy standard deviation.
 
 
-## Question 2
+#### Question 2:
+----------
 Which classifier had the highest accuracy averaged across all of its cross-validation runs?
 
 **A.** AVGBlender
@@ -52,11 +53,13 @@ Which classifier had the highest accuracy averaged across all of its cross-valid
 
 **C.** MajorityClassClassifier
 
-## Question 3
+#### Question 3
+----------
 What was the highest accuracy averaged across all of a classifier's cross-validation runs? To two decimal places, expressed in the range of 0 to 1. e.g., an accuracy of 50% should be expressed as .50
 
 
-## Question 4
+#### Question 4
+----------
 Which classifier had the tightest distribution of accuracies across all of its cross-validation runs?
 
 
