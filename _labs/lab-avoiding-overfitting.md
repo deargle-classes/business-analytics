@@ -1,7 +1,6 @@
 ---
 title: "Lab: Avoiding Overfitting"
 ---
-Hi, I edited this.  Again.
 
 This model give hands-on experience with cross-validation. Your task is to assess the performance of three classifiers -- 
 a Logistic regressor, a majority classifier, and a blender ensemble classifier. 
