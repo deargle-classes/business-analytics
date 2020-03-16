@@ -14,9 +14,9 @@ For the first set of questions, use [this excel spreadsheet.](https://canvas.col
 - wrap the SEARCH function in a ISNUMBER function. This converts the output of SEARCH to a binary TRUE/FALSE
 - use an IF function to check the output of the ISNUMBER function. IF true, then 1, else 0. Tada, you have a binary TF representation.
 
-[Here](https://exceljet.net/formula/count-total-words-in-a-cell) is a way to count the number of words in a string in excel: https://exceljet.net/formula/count-total-words-in-a-cell
- (Links to an external site.)
-. This approach works by counting the total number of characters in a string, and subtracting from that the total number of characters in a string if spaces are removed, and adding 1. You should `trim()` all string references so that any trailing white-spaces are removed or this approach will report inflated word counts.
+[Here](https://exceljet.net/formula/count-total-words-in-a-cell) is a way to count the number of words in a string in excel. This approach works by counting the total number of characters in a string, 
+and subtracting from that the total number of characters in a string if spaces are removed, and adding 1. You should `trim()` all string references so that any trailing white-spaces 
+are removed or this approach will report inflated word counts.
 
 Do not worry about stop word removal or stemming for these questions. In fact, do not remove anything from anything.
 
