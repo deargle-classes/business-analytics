@@ -35,13 +35,12 @@ Based on your training data, what is the lift of E_sports relative to being a pu
 ----------
  What class membership prediction will a naive bayes algorithm trained on this historical data make for this new customer?
 
-**A.** It's a tie
-
-**B.** Impossible to reliably say because of naive assumptions
-
-**C.**  Not-Purchaser
-
-**D.**  Purchaser
+<ol class='list-style-upper-alpha'>
+    <li>It's a tie</li>
+    <li>Impossible to reliably say because of naive assumptions</li>
+    <li>Not-Purchaser</li>
+    <li>Purchaser</li>
+</ol>
 
 #### Question 5:
 ----------
@@ -55,15 +54,13 @@ Based on the historical data, what is the overall probability of visiting a heal
 ---------- 
 Which of the following most increases the likelihood of not being a purchaser?
 
-**A.** Sports.com
-
-**B.** Finance.com
-
-**C.** gossip.com
-
-**D.** Health.com
-
-**E.** Cooking.com
+<ol class='list-style-upper-alpha'>
+    <li>Sports.com</li>
+    <li>Finance.com</li>
+    <li>gossip.com</li>
+    <li>Health.com</li>
+    <li>Cooking.com</li>
+</ol>
  
 #### Question 8:
 ----------

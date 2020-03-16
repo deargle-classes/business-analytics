@@ -106,37 +106,33 @@ _grade_ is lending club assigned loan grade- "A" is good, "G" is bad, etc.
 
 Refer to the model output above. What value would this model directly predict (y) for someone with a dti of .94 and a grade of D?
 
-**A.** y= 2.057
-	
-**B.** y= 2.027
-	 
-**C.** y= -1.490  
-	 
-**D.** y= 2.028
+<ol class='list-style-upper-alpha'>
+    <li><code>y= 2.057</code></li>
+    <li><code>y= 2.027</code></li>
+    <li><code>y= -1.490</code></li>
+    <li><code>y= 2.028</code></li>
+</ol>
 
 
 #### Question 5:
 ----------
 Refer to the model output above. What value would this model predict for someone with a dti of .3 and a grade of A?
 
-**A.** y= -3.502
-
-**B.** y= 0.014
-
-**C.** y= 0.048
-
-**D.** y= -3.469
+<ol class='list-style-upper-alpha'>
+    <li><code>y= -3.502</code></li>
+    <li><code>y= 0.014</code></li>
+    <li><code>y= 0.048</code></li>
+    <li><code>y= -3.469</code></li>
+</ol>
 
 
 #### Question 6:
 ----------
 Assume that the model above make a direct prediction of y = .2. What would this be in terms of probability?
 
-**A.** p = .200
-
-**B.** p = .4
-
-**C.** p = .550
-
-**D.** p = .450
-
+<ol class='list-style-upper-alpha'>
+    <li><code>p = .200</code></li>
+    <li><code>p = .4</code></li>
+    <li><code>p = .550</code></li>
+    <li><code>p = .450</code></li>
+</ol>
