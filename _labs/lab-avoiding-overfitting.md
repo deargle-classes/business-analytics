@@ -1,7 +1,6 @@
 ---
 title: "Lab: Avoiding Overfitting"
 ---
-Hi, I edited this.  Again.
 
 This model give hands-on experience with cross-validation. Your task is to assess the performance of three classifiers -- 
 a Logistic regressor, a majority classifier, and a blender ensemble classifier. 
@@ -47,11 +46,12 @@ Submit two screenshots:
 ----------
 Which classifier had the highest accuracy averaged across all of its cross-validation runs?
 
-**A.** AVGBlender
+<ol class='list-style-upper-alpha'>
+    <li>AVGBlender</li>
+    <li>LogisticRegression</li>
+    <li>MajorityClassClassifier</li>
+</ol>
 
-**B.** LogisticRegression
-
-**C.** MajorityClassClassifier
 
 #### Question 3
 ----------
@@ -63,8 +63,8 @@ What was the highest accuracy averaged across all of a classifier's cross-valida
 Which classifier had the tightest distribution of accuracies across all of its cross-validation runs?
 
 
-**A.** AVGBlender
-
-**B.** LogisticRegression
-
-**C.** MajorityClassClassifier
+<ol class='list-style-upper-alpha'>
+    <li>AVGBlender</li>
+    <li>LogisticRegression</li>
+    <li>MajorityClassClassifier</li>
+</ol>
