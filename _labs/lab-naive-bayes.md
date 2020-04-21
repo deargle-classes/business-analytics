@@ -4,7 +4,7 @@ title: "Lab: Evidence Combination"
 
 This lab will use Naive Bayes.
 
-Download [this workbook](https://www.dropbox.com/s/9oh0t0l94c17mbu/NB-example-fill-in.xlsx?dl=0) (click the three ... in upper-right corner, “download). 
+Download [this workbook](https://github.com/brhu6775/business-analytics/blob/master/_labs/NaiveBayes-example-fill-in.xlsx?raw=true) (click the three ... in upper-right corner, “download). 
 It contains historical data on whether online consumers will make a purchase on your website. For each consumer, you know whether they visited certain kinds of websites before visiting your site. The historical data is in rows 2 through 32.
 
 Use this historical data to make a prediction for whether or not a new online consumer will make a purchase on your website. 
