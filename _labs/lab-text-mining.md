@@ -35,7 +35,7 @@ What is the value in cell E23 -- the IDF of "broke"? To four decimal places.
 What is the value of C31 -- the TFIDF of "college" in text id 3344? To four decimal places.
  
 
-For the following questions, use [this workbook.](https://github.com/brhu6775/business-analytics/blob/master/_labs/Text%20Mining-pizza_features-to-fill-in.xlsx?raw=true).
+For the following questions, use [this workbook](https://github.com/brhu6775/business-analytics/blob/master/_labs/Text%20Mining-pizza_features-to-fill-in.xlsx?raw=true).
 
 The goal for these questions is Information Retrieval. You are given the title of a post, and you are to calculate the cosine similarity between that title and all other titles in the given corpus. The workbook has more tips on how to do that.
 For each title, a feature-vector is provided for you. Use the entire provided feature vector to calculate your similarity scores.
