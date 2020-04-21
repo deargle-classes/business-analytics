@@ -7,7 +7,7 @@ This lab uses select data from [Kaggle](https://www.kaggle.com/c/random-acts-of-
 
 I pulled out the titles of a few of the posts that did receive pizza. You will do some text analytics type stuff with these titles.
 
-For the first set of questions, use [this excel spreadsheet.](https://canvas.colorado.edu/courses/21394/files/2446645/download?wrap=1) In it, for each of the indicated tokens in each of the provided documents, calculate the TFs, as well as the IDF, and finally the TFIDF using the indicated TF. You can do the calculations in Alteryx if you really feel like it, but it's easy enough in Excel.
+For the first set of questions, use [this excel spreadsheet.](https://github.com/brhu6775/business-analytics/blob/master/_labs/Text%20Mining-bag-of-words-to-fill-in-v3.xlsx?raw=true) In it, for each of the indicated tokens in each of the provided documents, calculate the TFs, as well as the IDF, and finally the TFIDF using the indicated TF. You can do the calculations in Alteryx if you really feel like it, but it's easy enough in Excel.
 
 **Hint**: One way to check if a word is present in a document in Excel is like this:
 - use the SEARCH function. If the string is found, it returns a numerical position of where the string was found. If the string is not found, it returns a... not number. An error of some sort.
@@ -35,7 +35,7 @@ What is the value in cell E23 -- the IDF of "broke"? To four decimal places.
 What is the value of C31 -- the TFIDF of "college" in text id 3344? To four decimal places.
  
 
-For the following questions, use [this workbook.](https://canvas.colorado.edu/courses/21394/files/2225101/download?download_frd=1).
+For the following questions, use [this workbook.](https://github.com/brhu6775/business-analytics/blob/master/_labs/Text%20Mining-pizza_features-to-fill-in.xlsx?raw=true).
 
 The goal for these questions is Information Retrieval. You are given the title of a post, and you are to calculate the cosine similarity between that title and all other titles in the given corpus. The workbook has more tips on how to do that.
 For each title, a feature-vector is provided for you. Use the entire provided feature vector to calculate your similarity scores.
