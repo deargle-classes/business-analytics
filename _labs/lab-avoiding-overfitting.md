@@ -14,7 +14,7 @@ with features for:
 2. The cross-validation prediction of probability of readmittance for that row.
 
 
-The three datasets are available in the "Lab-avoiding-overfitting.yxzp" package in the "files" area of canvas. 
+The three datasets are available [here.](https://github.com/brhu6775/business-analytics/blob/master/_labs/Lab-avoiding-overfitting-files.yxzp?raw=true) 
 The three sets of predictions have been imported for you, and have been union-ed together. 
 
 
