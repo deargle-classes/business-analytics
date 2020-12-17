@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -19,27 +19,28 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Business Analytics
-email: 
+email:
 description: >- # this means to ignore newlines until "baseurl:"
   Content from my Business Analytics Fall 2019 class at
   CU Boulder
 baseurl: "/business-analytics" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  
+twitter_username:
+github_username:
 
 # Build settings
 theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
 
 collections:
     labs:
         output: true
     topics:
         output: true
-        
-        
+
+
 defaults:
     -
         scope:
@@ -51,15 +52,13 @@ defaults:
             path: ""
             type: "topics"
         values:
-            layout: "topic"        
+            layout: "topic"
     -
         scope:
             path: ""
             type: "labs"
         values:
             layout: "lab"
-
-github: [metadata]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
