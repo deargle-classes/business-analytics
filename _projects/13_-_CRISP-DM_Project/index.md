@@ -1,5 +1,5 @@
 ---
-title: 13 - CRISP-DM Project
+title: CRISP-DM Project
 ---
 
 # DataRobot project -- Diabetes Data
@@ -211,7 +211,7 @@ Once you have trained your recommended-deploy model on the full training dataset
 - Your prediction for readmittance within 30 days
 
 ### Conclusion ###
-High-level summary of your findings and recommendation.  
+High-level summary of your findings and recommendation.
 
 ### Appendix- 10%  ###
 Include an appendix with enough in-depth detail about all of your feature engineering and data restructuring that a programming team could start from raw data in the format that you received it, and modify it sufficiently that it could be used for modeling / predictions:

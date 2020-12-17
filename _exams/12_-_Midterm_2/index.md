@@ -1,5 +1,5 @@
 ---
-title: 12 - Midterm 2
+title: Midterm 2
 ---
 
 # Analytics Topics for Second Exam
@@ -19,7 +19,7 @@ title: 12 - Midterm 2
 * Unsupervised vs supervised learning
 * The strictly conceptual need for and use of the following for predictive analytics:
    * ETL
-   * Transformations / feature engineering 
+   * Transformations / feature engineering
       * Joining, summarising
 
 ## General concepts
@@ -63,7 +63,7 @@ title: 12 - Midterm 2
 
 ## Lecture: Text Mining
 * Why text is important, why it is difficult
-* Vocabulary: document, corpus, tokens, terms 
+* Vocabulary: document, corpus, tokens, terms
 * Converting text into feature-vector form, different approaches for
    * Bag of words, binary
    * Bag of words, term frequency
@@ -71,17 +71,17 @@ title: 12 - Midterm 2
    * Bag of words, inverse document frequency (IDF) and TFIDF
 * Understand how a search engine might use text mining feature-vector representation to rank search results
 * Cosine-distance, but not memorize the formula -- just how it is used for text, and how it uses feature-vector
-   * I learned how this worked today, it’s a cool hack. Answers the age-old question of all high-school students of 
-     “why do I need to learn trigonometry if I am not going to be a civil engineer or a bird watcher?” Well, look at this: 
-     https://www.mathsisfun.com/algebra/vectors-dot-product.html This describes the “dot product” of two vectors. 
-     They say that it is equivalent to multiplying the length of two vectors by the cosine of the angle between them. 
-     Recall that cosine values range between -1 and 1. We like that property of cosine because we are looking for a 
-     “similarity” score between two text documents. So if you do a cool hack, you can divide the dot product of two 
-     vectors by the product of their lengths, and you get... the cosine of the angle between them :shrug:. 
-     That is a cosine similarity, so to switch it to a cosine distance, subtract it from 1. Voila, did you know that, 
-     now you know. It’s cool for things like text mining when using TF-IDF or other values that are non-integer so you can’t do a 
-     simple jaccard distance or simple matching coefficient. Sure, you could still do a euclidean or manhattan distance between 
-     two text feature-vectors, but for some reason still unknown to me, cosine distance is preferred for 
+   * I learned how this worked today, it’s a cool hack. Answers the age-old question of all high-school students of
+     “why do I need to learn trigonometry if I am not going to be a civil engineer or a bird watcher?” Well, look at this:
+     https://www.mathsisfun.com/algebra/vectors-dot-product.html This describes the “dot product” of two vectors.
+     They say that it is equivalent to multiplying the length of two vectors by the cosine of the angle between them.
+     Recall that cosine values range between -1 and 1. We like that property of cosine because we are looking for a
+     “similarity” score between two text documents. So if you do a cool hack, you can divide the dot product of two
+     vectors by the product of their lengths, and you get... the cosine of the angle between them :shrug:.
+     That is a cosine similarity, so to switch it to a cosine distance, subtract it from 1. Voila, did you know that,
+     now you know. It’s cool for things like text mining when using TF-IDF or other values that are non-integer so you can’t do a
+     simple jaccard distance or simple matching coefficient. Sure, you could still do a euclidean or manhattan distance between
+     two text feature-vectors, but for some reason still unknown to me, cosine distance is preferred for
      text comparison over those other two approaches.
 
      So go back and tell your high-school self to shut up and learn trig “you’ll thank me one day.”

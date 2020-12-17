@@ -1,5 +1,5 @@
 ---
-title: 07 - Midterm 1
+title: Midterm 1
 ---
 
 # Analytics Topics for First Exam
@@ -21,7 +21,7 @@ title: 07 - Midterm 1
 * Unsupervised vs supervised learning
 * The strictly conceptual need for and use of the following for predictive analytics:
    * ETL
-   * Transformations / feature engineering 
+   * Transformations / feature engineering
       * Joining, summarising
 
 ## Lecture: Introduction to Predictive Analytics
@@ -67,8 +67,8 @@ title: 07 - Midterm 1
    * The labeling of individual cells
    * The ability to create a basic matrix from simple data
    * Do need to memorise how to use a confusion matrix to obtain:
-      * True Positive Rate (i.e., sensitivity, recall), 
-      * False Positive Rate, and 
+      * True Positive Rate (i.e., sensitivity, recall),
+      * False Positive Rate, and
       * Positive Predictive Value (i.e., precision)
    * Do not need to memorize the various synonyms for the above three metrics
    * Be able to interpret probability-notation-representation of the above metrics:
